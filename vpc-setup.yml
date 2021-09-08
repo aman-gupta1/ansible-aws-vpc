@@ -39,7 +39,7 @@
         state: "{{state}}"
         cidr: "{{ PubSub2Cidr }}"
         map_public: yes
-        resourse_tags:
+        resource_tags:
           Name: vprofile-pubsub2
       register: pubsub2_out
 
@@ -51,7 +51,7 @@
         state: "{{state}}"
         cidr: "{{ PubSub3Cidr }}"
         map_public: yes
-        resourse_tags:
+        resource_tags:
           Name: vprofile-pubsub3
       register: pubsub3_out
 
@@ -63,7 +63,7 @@
         state: "{{state}}"
         cidr: "{{ PriSub1Cidr }}"
         map_public: yes
-        resourse_tags:
+        resource_tags:
           Name: vprofile-prisub1
       register: prisub1_out
 
@@ -75,7 +75,7 @@
         state: "{{state}}"
         cidr: "{{ PriSub2Cidr }}"
         map_public: yes
-        resourse_tags:
+        resource_tags:
           Name: vprofile-prisub2
       register: prisub2_out
 
@@ -87,7 +87,7 @@
         state: "{{state}}"
         cidr: "{{ PriSub3Cidr }}"
         map_public: yes
-        resourse_tags:
+        resource_tags:
           Name: vprofile-prisub3
       register: prisub3_out
 
